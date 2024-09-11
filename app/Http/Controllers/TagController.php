@@ -23,7 +23,7 @@ class TagController extends Controller
     public function create()
     {
         $tag =Tag::create([
-            'tag_name' => '#kela'
+            'tag_name' => '#foreignKey'
         ]);
     }
 
